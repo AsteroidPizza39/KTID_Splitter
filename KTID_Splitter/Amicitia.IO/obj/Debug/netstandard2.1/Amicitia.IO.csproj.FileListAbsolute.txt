@@ -1,0 +1,9 @@
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\bin\Debug\netstandard2.1\Amicitia.IO.deps.json
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\bin\Debug\netstandard2.1\Amicitia.IO.dll
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\bin\Debug\netstandard2.1\Amicitia.IO.pdb
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.csprojAssemblyReference.cache
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.AssemblyInfoInputs.cache
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.AssemblyInfo.cs
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.csproj.CoreCompileInputs.cache
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.dll
+H:\github\KTID_Splitter\KTID_Splitter\KTID_Splitter\Amicitia.IO\obj\Debug\netstandard2.1\Amicitia.IO.pdb
