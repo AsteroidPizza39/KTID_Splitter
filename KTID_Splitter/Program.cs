@@ -149,20 +149,19 @@ namespace KTID_Splitter
                             }
                             else savePath = arg0.DirectoryName;
 
-                            string hashFileName = Path.Combine(savePath, "0x" + texHashes[i].ToString("X8") + ".file");
-                            
+                            var hashFileName = 0;
+
                             for (var h = 0; h < ktidEntryID.Count; h++)
                             {
                                 if (texHashes[i] == ktidEntryID[h])
                                 {
-                                    hashFileName = Path.Combine(savePath, "0x" + textureNameHash[i].ToString("X8") + ".file");
                                     Console.WriteLine("KTID Match Found: " + ktidEntryID[h].ToString("X8") + " => " + textureNameHash[h].ToString("X8"));
-                                    h = 69420;
+                                    hashFileName = h;
                                 }
                             }
 
-                            Console.WriteLine("Writing G1T File # " + (i + 1).ToString() + " -> " + hashFileName);
-                            using (BinaryObjectWriter newG1TFile = new BinaryObjectWriter(hashFileName, Endianness.Little, Encoding.GetEncoding(65001)))
+                            Console.WriteLine("Writing G1T File # " + (i + 1).ToString() + " -> " + textureNameHash[hashFileName].ToString("X8"));
+                            using (BinaryObjectWriter newG1TFile = new BinaryObjectWriter(Path.Combine(savePath, "0x" + textureNameHash[hashFileName].ToString("X8") + ".file"), Endianness.Little, Encoding.GetEncoding(65001)))
                             {
                                 newG1TFile.WriteInt32(g1tmagic);
                                 newG1TFile.WriteInt32(g1tversion);
