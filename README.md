@@ -15,3 +15,6 @@ Usage:
   
 ***Dump KTID -> Texture Hashname list from kidssingletondb as a txt file***  
 ```KTID_Splitter [path to kidssingletondb]```  
+
+# Dependencies:
+DotNET SDK v3.1.0: Available [here](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
