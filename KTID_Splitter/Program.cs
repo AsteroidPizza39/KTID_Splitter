@@ -161,7 +161,7 @@ namespace KTID_Splitter
                             }
 
                             Console.WriteLine("Writing G1T File # " + (i + 1).ToString() + " -> " + textureNameHash[hashFileName].ToString("X8"));
-                            using (BinaryObjectWriter newG1TFile = new BinaryObjectWriter(Path.Combine(savePath, "0x" + textureNameHash[hashFileName].ToString("X8") + ".file"), Endianness.Little, Encoding.GetEncoding(65001)))
+                            using (BinaryObjectWriter newG1TFile = new BinaryObjectWriter(Path.Combine(savePath, "0x" + textureNameHash[hashFileName].ToString("X8") + ".g1t"), Endianness.Little, Encoding.GetEncoding(65001)))
                             {
                                 newG1TFile.WriteInt32(g1tmagic);
                                 newG1TFile.WriteInt32(g1tversion);
